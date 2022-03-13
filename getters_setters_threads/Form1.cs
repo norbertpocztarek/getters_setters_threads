@@ -12,9 +12,14 @@ namespace getters_setters_threads
 {
     public partial class Form1 : Form
     {
+        NewClass nc = new NewClass("Nor");
         public Form1()
         {
             InitializeComponent();
+            nc.Name = "Norber";
+            System.Diagnostics.Debug.WriteLine("Nowe imie: " + nc.Name);
+
         }
+        
     }
 }
