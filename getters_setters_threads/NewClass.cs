@@ -39,9 +39,9 @@ namespace getters_setters_threads
                 PropertyChanged(this, new PropertyChangedEventArgs(prop));
         }
 
-        public NewClass(string name) //constructor - everything what is inside will be done when I will inicialise that class in main class, constructor has always the same name what a class has
+        public NewClass() //constructor - everything what is inside will be done when I will inicialise that class in main class, constructor has always the same name what a class has
         {
-            this.name = name; //a word "this" it's always telling about that variable is from this class, that's mean to private variable "name" from class NewClass i will give value from iniciation part in main class
+            //this.name = name; //a word "this" it's always telling about that variable is from this class, that's mean to private variable "name" from class NewClass i will give value from iniciation part in main class
             System.Diagnostics.Debug.WriteLine("Constructor works and his name is: " + name);
         }
     }
